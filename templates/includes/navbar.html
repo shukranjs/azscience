@@ -1,0 +1,34 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class='container-fluid'>
+  <div class="bg-primary w-50 d-flex justify-content-around">
+  <a class="navbar-brand text-light bg-primary" href="{{ url_for('home') }}">Home</a>
+  <a class="navbar-brand text-light bg-primary" href="{{ url_for('news') }}">News</a>
+  <a class="navbar-brand text-light bg-primary" href="#">Documentaries</a>
+  <a class="navbar-brand text-light bg-primary" href="#">About </a>
+  <a class="navbar-brand text-light bg-primary" href="#">Contact </a>
+
+</div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+       
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <a class="nav-link" href="#">Login</a>
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</div>
+</nav>
